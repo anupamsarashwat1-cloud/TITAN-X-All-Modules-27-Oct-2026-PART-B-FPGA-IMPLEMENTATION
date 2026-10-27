@@ -1,0 +1,30 @@
+# Simulation traces
+*.vcd
+*.fsdb
+*.wlf
+*.vpd
+
+# Vivado / EDA tool artifacts
+.Xil/
+*.jou
+*.log
+*.str
+*.pb
+*.dcp
+*.rpt
+vivado*.str
+usage_statistics_webtalk.*
+.cache/
+
+# Build outputs
+build/
+output/
+sim/build/
+sim/*.vvp
+sim/*.vcd
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
